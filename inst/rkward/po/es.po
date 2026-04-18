@@ -1,0 +1,266 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: rk.rmd 0.0.1\n"
+"Report-Msgid-Bugs-To: alfonso.cano@correo.buap.mx\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "1. Document Builder (Standard & General Templates)"
+msgstr "1. Constructor de Documentos (Plantillas Estándar y Generales)"
+
+msgid "2. Markdown Cheat Sheet"
+msgstr "2. Hoja de Referencia (Cheat Sheet) Markdown"
+
+msgid "3. APA Manuscript (papaja)"
+msgstr "3. Manuscrito APA (papaja)"
+
+msgid "Document Builder"
+msgstr "Constructor de Documentos"
+
+msgid "Generates a copy-pasteable R Markdown YAML header."
+msgstr "Genera un encabezado YAML de R Markdown listo para copiar y pegar."
+
+msgid "Document Title"
+msgstr "Título del Documento"
+
+msgid "Untitled Analysis"
+msgstr "Análisis sin título"
+
+msgid "Author Name(s)"
+msgstr "Nombre(s) del Autor(es)"
+
+msgid "Jane Doe"
+msgstr "Juan Pérez"
+
+msgid "Use Current Date (Sys.Date)"
+msgstr "Usar Fecha Actual (Sys.Date)"
+
+msgid "Document Template (Overrides Standard Output)"
+msgstr "Plantilla del Documento (Anula la Salida Estándar)"
+
+msgid "Standard Format (Basic HTML/PDF/Word)"
+msgstr "Formato Estándar (HTML/PDF/Word Básico)"
+
+msgid "Elsevier Journal Article (rticles)"
+msgstr "Artículo de Revista Elsevier (rticles)"
+
+msgid "IEEE Transaction (rticles)"
+msgstr "Transacción IEEE (rticles)"
+
+msgid "Springer Journal (rticles)"
+msgstr "Revista Springer (rticles)"
+
+msgid "Standard Output Format"
+msgstr "Formato de Salida Estándar"
+
+msgid "HTML Document"
+msgstr "Documento HTML"
+
+msgid "PDF Document"
+msgstr "Documento PDF"
+
+msgid "Word Document"
+msgstr "Documento Word"
+
+msgid "HTML Theme (HTML only)"
+msgstr "Tema HTML (solo HTML)"
+
+msgid "Default"
+msgstr "Por defecto"
+
+msgid "Cerulean"
+msgstr "Cerulean"
+
+msgid "Flatly"
+msgstr "Flatly"
+
+msgid "Journal"
+msgstr "Journal"
+
+msgid "Include Table of Contents (TOC)"
+msgstr "Incluir Tabla de Contenidos (TOC)"
+
+msgid "Number Sections"
+msgstr "Numerar Secciones"
+
+msgid "Optional: Save directly to .Rmd file"
+msgstr "Opcional: Guardar directamente en archivo .Rmd"
+
+msgid "Academic Templates"
+msgstr "Plantillas Académicas"
+
+msgid "Standard Options"
+msgstr "Opciones Estándar"
+
+msgid "By default, the code will be printed to the RKWard output window. You can optionally save it directly to a file here:"
+msgstr "Por defecto, el código se imprimirá en la ventana de salida de RKWard. Opcionalmente, puede guardarlo directamente en un archivo aquí:"
+
+msgid "Metadata"
+msgstr "Metadatos"
+
+msgid "Output & Templates"
+msgstr "Salida y Plantillas"
+
+msgid "Export"
+msgstr "Exportar"
+
+msgid "Posit R Markdown Cheat Sheet"
+msgstr "Hoja de Referencia (Cheat Sheet) de Posit R Markdown"
+
+msgid "All essential elements from the RStudio Cheat Sheet."
+msgstr "Todos los elementos esenciales de la Hoja de Referencia de RStudio."
+
+msgid "Select element to generate:"
+msgstr "Seleccione el elemento a generar:"
+
+msgid "--- TEXT FORMATTING ---"
+msgstr "--- FORMATO DE TEXTO ---"
+
+msgid "[Text] Headers (H1, H2, H3)"
+msgstr "[Texto] Encabezados (H1, H2, H3)"
+
+msgid "[Text] Styles (Bold, Italic)"
+msgstr "[Texto] Estilos (Negrita, Cursiva)"
+
+msgid "[Text] Lists (Bullets & Numbers)"
+msgstr "[Texto] Listas (Viñetas y Números)"
+
+msgid "[Text] Links & Footnotes"
+msgstr "[Texto] Enlaces y Notas al pie"
+
+msgid "[Text] Math Equations"
+msgstr "[Texto] Ecuaciones Matemáticas"
+
+msgid "--- CODE CHUNKS ---"
+msgstr "--- BLOQUES DE CÓDIGO ---"
+
+msgid "[Code] Basic Chunk"
+msgstr "[Código] Bloque Básico"
+
+msgid "[Code] Silent Chunk (Hidden)"
+msgstr "[Código] Bloque Silencioso (Oculto)"
+
+msgid "[Code] Plot/Figure Chunk"
+msgstr "[Código] Bloque de Gráfico/Figura"
+
+msgid "[Code] Inline Code"
+msgstr "[Código] Código en línea (Inline)"
+
+msgid "--- TABLES ---"
+msgstr "--- TABLAS ---"
+
+msgid "[Table] Native Markdown Table"
+msgstr "[Tabla] Tabla Nativa de Markdown"
+
+msgid "[Table] knitr::kable() Table"
+msgstr "[Tabla] Tabla knitr::kable()"
+
+msgid "R Markdown Cheat Sheet"
+msgstr "Hoja de Referencia R Markdown"
+
+msgid "Based on the official RStudio/Posit Cheat Sheet."
+msgstr "Basado en la Hoja de Referencia oficial de RStudio/Posit."
+
+msgid "APA papaja Builder"
+msgstr "Constructor APA papaja"
+
+msgid "Advanced builder for APA 6th/7th edition manuscripts."
+msgstr "Constructor avanzado para manuscritos APA 6ta/7ma edición."
+
+msgid "Manuscript Title"
+msgstr "Título del Manuscrito"
+
+msgid "The Title of the Paper"
+msgstr "El Título del Artículo"
+
+msgid "Running Head (Short Title)"
+msgstr "Titulillo (Título Corto)"
+
+msgid "SHORT TITLE"
+msgstr "TÍTULO CORTO"
+
+msgid "Abstract (Multiple lines allowed)"
+msgstr "Resumen (Se permiten múltiples líneas)"
+
+msgid "Enter abstract here..."
+msgstr "Ingrese el resumen aquí..."
+
+msgid "Keywords (comma separated)"
+msgstr "Palabras clave (separadas por coma)"
+
+msgid "keyword 1, keyword 2"
+msgstr "palabra clave 1, palabra clave 2"
+
+msgid "1. Define Affiliations"
+msgstr "1. Definir Afiliaciones"
+
+msgid "ID (e.g., '1')"
+msgstr "ID (ej., '1')"
+
+msgid "Institution Name"
+msgstr "Nombre de la Institución"
+
+msgid "2. Define Authors"
+msgstr "2. Definir Autores"
+
+msgid "Full Name"
+msgstr "Nombre Completo"
+
+msgid "Affil. IDs (e.g., '1' or '1,2')"
+msgstr "IDs Afiliación (ej., '1' o '1,2')"
+
+msgid "Corresponding? (yes/no)"
+msgstr "¿Corresponsal? (yes/no)"
+
+msgid "Email"
+msgstr "Correo Electrónico"
+
+msgid "APA Edition"
+msgstr "Edición APA"
+
+msgid "APA 6th Edition"
+msgstr "APA 6ta Edición"
+
+msgid "APA 7th Edition"
+msgstr "APA 7ma Edición"
+
+msgid "Output Format"
+msgstr "Formato de Salida"
+
+msgid "PDF (LaTeX required)"
+msgstr "PDF (Requiere LaTeX)"
+
+msgid "Integrate tables and figures in text (floatsintext)"
+msgstr "Integrar tablas y figuras en el texto (floatsintext)"
+
+msgid "Masked for Peer Review (hides authors)"
+msgstr "Enmascarado para Revisión por Pares (oculta autores)"
+
+msgid "Show Line Numbers"
+msgstr "Mostrar Números de Línea"
+
+msgid "Optional: Save to .Rmd file"
+msgstr "Opcional: Guardar en archivo .Rmd"
+
+msgid "<i>First, define institutions with an ID. Then assign those IDs to authors.</i>"
+msgstr "<i>Primero, defina las instituciones con un ID. Luego asigne esos IDs a los autores.</i>"
+
+msgid "Format"
+msgstr "Formato"
+
+msgid "Manuscript Options"
+msgstr "Opciones del Manuscrito"
+
+msgid "APA Manuscript (papaja)"
+msgstr "Manuscrito APA (papaja)"
+
+msgid "Title & Abstract"
+msgstr "Título y Resumen"
+
+msgid "Authors"
+msgstr "Autores"
+
+msgid "Settings"
+msgstr "Configuración"

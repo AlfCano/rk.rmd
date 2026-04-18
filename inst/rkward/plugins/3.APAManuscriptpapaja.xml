@@ -1,0 +1,68 @@
+<!DOCTYPE rkplugin >
+<document>
+	<!--
+		this code was generated using the rkwarddev package.
+	perhaps don't make changes here, but in the rkwarddev script instead!
+	-->
+	<code file="3.APAManuscriptpapaja.js" />
+	<help file="3.APAManuscriptpapaja.rkh" />
+	<!--
+		<dependencies>
+		</dependencies>
+	-->
+	<logic>
+		<!--
+			<convert id="!edit!" sources="!edit!" mode="equals" standard="!edit!" />
+		-->
+		<!--
+			<connect governor="!edit!.state" client="!edit!.enabled" />
+		-->
+	</logic>
+	<dialog label="APA Manuscript (papaja)">
+		<tabbook>
+			<tab label="Title &amp; Abstract" id="tab_TtlAbstr">
+				<column id="clm_iMT3TTPRHS">
+					<input label="Manuscript Title" id="c3_title" initial="The Title of the Paper" required="true" />
+					<input label="Running Head (Short Title)" id="c3_shorttitle" initial="SHORT TITLE" required="true" />
+					<input label="Abstract (Multiple lines allowed)" id="c3_abstract" initial="Enter abstract here..." size="large" />
+					<input label="Keywords (comma separated)" id="c3_keywords" initial="keyword 1, keyword 2" />
+				</column>
+			</tab>
+			<tab label="Authors" id="tab_Authors">
+				<column id="clm_tFIDTIDFID">
+					<text id="txt_iFrIDTID">
+						<i>
+							First, define institutions with an ID. Then assign those IDs to authors.
+						</i>
+					</text>
+					<matrix id="c3_affil_mat" label="1. Define Affiliations" mode="string" horiz_headers="ID (e.g., '1');Institution Name" />
+					<matrix id="c3_author_mat" label="2. Define Authors" mode="string" horiz_headers="Full Name;Affil. IDs (e.g., '1' or '1,2');Corresponding? (yes/no);Email" />
+				</column>
+			</tab>
+			<tab label="Settings" id="tab_Settings">
+				<column id="clm_fFF3APAEAP">
+					<frame label="Format" id="frm_Format">
+						<dropdown id="c3_class" label="APA Edition">
+							<option label="APA 6th Edition" value="apa6" />
+							<option label="APA 7th Edition" value="apa7" checked="true" />
+						</dropdown>
+						<dropdown id="c3_format" label="Output Format">
+							<option label="PDF (LaTeX required)" value="papaja::apa6_pdf" checked="true" />
+							<option label="Word Document" value="papaja::apa6_word" />
+						</dropdown>
+					</frame>
+					<frame label="Manuscript Options" id="frm_MnscrptO">
+						<checkbox id="c3_floats" label="Integrate tables and figures in text (floatsintext)" value="TRUE" checked="true" />
+						<checkbox id="c3_mask" label="Masked for Peer Review (hides authors)" value="TRUE" />
+						<checkbox id="c3_linenum" label="Show Line Numbers" value="TRUE" />
+					</frame>
+				</column>
+			</tab>
+			<tab label="Export" id="tab_Export">
+				<column id="clm_brwsrlOSR3">
+					<browser label="Optional: Save to .Rmd file" type="savefile" id="c3_save_opt" required="false" />
+				</column>
+			</tab>
+		</tabbook>
+	</dialog>
+</document>

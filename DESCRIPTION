@@ -1,0 +1,17 @@
+Package: rk.rmd
+Type: Package
+Title: RKWard Plugin Suite for generating R Markdown, papaja, and
+        bookdown boilerplates.
+Version: 0.0.1
+Date: 2026-04-18
+Author: Alfonso Cano Robles
+Maintainer: Alfonso Cano Robles <alfonso.cano@correo.buap.mx>
+Enhances: rkward
+Description: RKWard Plugin Suite for generating R Markdown, papaja, and
+        bookdown boilerplates.
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyLoad: yes
+URL: https://github.com/AlfCano/rk.rmd
+Authors@R: person(given="Alfonso", family="Cano Robles",
+        email="alfonso.cano@correo.buap.mx", role=c("aut", "cre"))

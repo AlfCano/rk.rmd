@@ -1,0 +1,62 @@
+<!DOCTYPE rkhelp >
+<document>
+	<!--
+		this code was generated using the rkwarddev package.
+	perhaps don't make changes here, but in the rkwarddev script instead!
+	-->
+	<title>
+		3. APA Manuscript (papaja)
+	</title>
+	<summary>
+	</summary>
+	<usage>
+	</usage>
+	<!--
+		<section id="sct_EDITORDE" title="EDIT OR DELETE ME">
+			EDIT OR DELETE ME
+		</section>
+	-->
+	<settings>
+		<caption id="tab_TtlAbstr" />
+		<setting id="c3_title">
+		</setting>
+		<setting id="c3_shorttitle">
+		</setting>
+		<setting id="c3_abstract">
+		</setting>
+		<setting id="c3_keywords">
+		</setting>
+		<caption id="tab_Authors" />
+		<setting id="c3_affil_mat">
+		</setting>
+		<setting id="c3_author_mat">
+		</setting>
+		<caption id="tab_Settings" />
+		<caption id="frm_Format" />
+		<setting id="c3_class">
+		</setting>
+		<setting id="c3_format">
+		</setting>
+		<caption id="frm_MnscrptO" />
+		<setting id="c3_floats">
+		</setting>
+		<setting id="c3_mask">
+		</setting>
+		<setting id="c3_linenum">
+		</setting>
+		<caption id="tab_Export" />
+		<setting id="c3_save_opt">
+		</setting>
+	</settings>
+	<!--
+		<related>
+			<ul>
+				<li>
+					<link href="rkward://rhelp/..." />
+				</li>
+			</ul>
+		</related>
+	-->
+	<technical>
+	</technical>
+</document>

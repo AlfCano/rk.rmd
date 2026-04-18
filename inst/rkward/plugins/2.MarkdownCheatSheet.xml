@@ -1,0 +1,47 @@
+<!DOCTYPE rkplugin >
+<document>
+	<!--
+		this code was generated using the rkwarddev package.
+	perhaps don't make changes here, but in the rkwarddev script instead!
+	-->
+	<code file="2.MarkdownCheatSheet.js" />
+	<help file="2.MarkdownCheatSheet.rkh" />
+	<!--
+		<dependencies>
+		</dependencies>
+	-->
+	<logic>
+		<!--
+			<convert id="!edit!" sources="!edit!" mode="equals" standard="!edit!" />
+		-->
+		<!--
+			<connect governor="!edit!.state" client="!edit!.enabled" />
+		-->
+	</logic>
+	<dialog label="R Markdown Cheat Sheet">
+		<row id="row_cBRSPCSBRS">
+			<column id="clm_tBRSPCSBRS">
+				<text id="txt_BsdRSPCS">
+					Based on the official RStudio/Posit Cheat Sheet.
+				</text>
+				<dropdown id="c2_type" label="Select element to generate:">
+					<option label="--- TEXT FORMATTING ---" value="none1" />
+					<option label="[Text] Headers (H1, H2, H3)" value="headers" checked="true" />
+					<option label="[Text] Styles (Bold, Italic)" value="styles" />
+					<option label="[Text] Lists (Bullets &amp; Numbers)" value="lists" />
+					<option label="[Text] Links &amp; Footnotes" value="links" />
+					<option label="[Text] Math Equations" value="math" />
+					<option label="--- CODE CHUNKS ---" value="none2" />
+					<option label="[Code] Basic Chunk" value="chunk_basic" />
+					<option label="[Code] Silent Chunk (Hidden)" value="chunk_hidden" />
+					<option label="[Code] Plot/Figure Chunk" value="chunk_plot" />
+					<option label="[Code] Inline Code" value="chunk_inline" />
+					<option label="--- TABLES ---" value="none3" />
+					<option label="[Table] Native Markdown Table" value="tbl_md" />
+					<option label="[Table] knitr::kable() Table" value="tbl_kable" />
+				</dropdown>
+				<stretch />
+			</column>
+		</row>
+	</dialog>
+</document>

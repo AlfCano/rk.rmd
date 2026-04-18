@@ -1,0 +1,55 @@
+<!DOCTYPE rkhelp >
+<document>
+	<!--
+		this code was generated using the rkwarddev package.
+	perhaps don't make changes here, but in the rkwarddev script instead!
+	-->
+	<title>
+		1. Document Builder (Standard &amp; General Templates)
+	</title>
+	<summary>
+	</summary>
+	<usage>
+	</usage>
+	<!--
+		<section id="sct_EDITORDE" title="EDIT OR DELETE ME">
+			EDIT OR DELETE ME
+		</section>
+	-->
+	<settings>
+		<caption id="tab_Metadata" />
+		<setting id="c1_title">
+		</setting>
+		<setting id="c1_author">
+		</setting>
+		<setting id="c1_date">
+		</setting>
+		<caption id="tab_OtptTmpl" />
+		<caption id="frm_AcdmcTmp" />
+		<setting id="c1_template">
+		</setting>
+		<caption id="frm_StndrdOp" />
+		<setting id="c1_format">
+		</setting>
+		<setting id="c1_theme">
+		</setting>
+		<setting id="c1_toc">
+		</setting>
+		<setting id="c1_number">
+		</setting>
+		<caption id="tab_Export" />
+		<setting id="c1_save_opt">
+		</setting>
+	</settings>
+	<!--
+		<related>
+			<ul>
+				<li>
+					<link href="rkward://rhelp/..." />
+				</li>
+			</ul>
+		</related>
+	-->
+	<technical>
+	</technical>
+</document>

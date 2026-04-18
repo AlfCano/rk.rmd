@@ -1,0 +1,117 @@
+<!DOCTYPE
+	rkpluginmap
+>
+<document
+	base_prefix=""
+	namespace="1DocumentBuilderStandardGeneralTemplates"
+	id="1DocumentBuilderStandardGeneralTemplates_rkward"
+	po_id="1DocumentBuilderStandardGeneralTemplates_rkward"
+	priority="medium"
+>
+	<!--
+		this code was generated using the rkwarddev package.
+	perhaps don't make changes here, but in the rkwarddev script instead!
+	-->
+	<!--
+		<dependencies>
+		</dependencies>
+	-->
+	<about
+		name="rk.rmd"
+		shortinfo="RKWard Plugin Suite for generating R Markdown, papaja, and bookdown boilerplates."
+		longinfo="RKWard Plugin Suite for generating R Markdown, papaja, and bookdown boilerplates."
+		version="0.0.1"
+		releasedate="2026-04-18"
+		url="https://github.com/AlfCano/rk.rmd"
+		license="GPL (&gt;= 3)"
+	>
+		<author
+			given="Alfonso"
+			family="Cano Robles"
+			email="alfonso.cano@correo.buap.mx"
+			role="aut, cre"
+		/>
+	</about>
+	<require
+		map="rkward::menu"
+	/>
+	<require
+		map="rkward::embedded"
+	/>
+	<components>
+		<component
+			id="cmp_1DcmntBldrStndrdGnrlT2MCS"
+			label="2. Markdown Cheat Sheet"
+			type="standard"
+			file="plugins/2.MarkdownCheatSheet.xml"
+		>
+		</component>
+		<component
+			id="cmp_1DcmntBldrStndrdGnrT3APAM"
+			label="3. APA Manuscript (papaja)"
+			type="standard"
+			file="plugins/3.APAManuscriptpapaja.xml"
+		>
+		</component>
+		<component
+			id="cmp_1DcmntBldrStndrdGnT1DBSGT"
+			label="1. Document Builder (Standard &amp; General Templates)"
+			type="standard"
+			file="plugins/1.DocumentBuilderStandardGeneralTemplates.xml"
+		>
+		</component>
+	</components>
+	<hierarchy>
+		<menu
+			id="file"
+			label="File"
+		>
+			<menu
+				id="RMarkdownGenerators"
+				label="R Markdown Generators"
+			>
+				<entry
+					component="cmp_1DcmntBldrStndrdGnrlT2MCS"
+				/>
+			</menu>
+		</menu>
+		<menu
+			id="file"
+			label="File"
+		>
+			<menu
+				id="RMarkdownGenerators"
+				label="R Markdown Generators"
+			>
+				<entry
+					component="cmp_1DcmntBldrStndrdGnrT3APAM"
+				/>
+			</menu>
+		</menu>
+		<menu
+			id="file"
+			label="File"
+		>
+			<menu
+				id="RMarkdownGenerators"
+				label="R Markdown Generators"
+			>
+				<entry
+					component="cmp_1DcmntBldrStndrdGnT1DBSGT"
+				/>
+			</menu>
+		</menu>
+	</hierarchy>
+	<!--
+		<context
+			id="x11"
+		>
+		</context>
+	-->
+	<!--
+		<context
+			id="import"
+		>
+		</context>
+	-->
+</document>

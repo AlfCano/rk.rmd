@@ -1,0 +1,67 @@
+<!DOCTYPE rkplugin >
+<document>
+	<!--
+		this code was generated using the rkwarddev package.
+	perhaps don't make changes here, but in the rkwarddev script instead!
+	-->
+	<code file="1.DocumentBuilderStandardGeneralTemplates.js" />
+	<help file="1.DocumentBuilderStandardGeneralTemplates.rkh" />
+	<!--
+		<dependencies>
+		</dependencies>
+	-->
+	<logic>
+		<!--
+			<convert id="!edit!" sources="!edit!" mode="equals" standard="!edit!" />
+		-->
+		<!--
+			<connect governor="!edit!.state" client="!edit!.enabled" />
+		-->
+	</logic>
+	<dialog label="Document Builder">
+		<tabbook>
+			<tab label="Metadata" id="tab_Metadata">
+				<column id="clm_iDT1UAAN1J">
+					<input label="Document Title" id="c1_title" initial="Untitled Analysis" required="true" />
+					<input label="Author Name(s)" id="c1_author" initial="Jane Doe" />
+					<checkbox id="c1_date" label="Use Current Date (Sys.Date)" value="TRUE" checked="true" />
+				</column>
+			</tab>
+			<tab label="Output &amp; Templates" id="tab_OtptTmpl">
+				<column id="clm_fATAT1DTOS">
+					<frame label="Academic Templates" id="frm_AcdmcTmp">
+						<dropdown id="c1_template" label="Document Template (Overrides Standard Output)">
+							<option label="Standard Format (Basic HTML/PDF/Word)" value="standard" checked="true" />
+							<option label="Elsevier Journal Article (rticles)" value="rticles::elsevier_article" />
+							<option label="IEEE Transaction (rticles)" value="rticles::ieee_article" />
+							<option label="Springer Journal (rticles)" value="rticles::springer_article" />
+						</dropdown>
+					</frame>
+					<frame label="Standard Options" id="frm_StndrdOp">
+						<dropdown id="c1_format" label="Standard Output Format">
+							<option label="HTML Document" value="html_document" checked="true" />
+							<option label="PDF Document" value="pdf_document" />
+							<option label="Word Document" value="word_document" />
+						</dropdown>
+						<dropdown id="c1_theme" label="HTML Theme (HTML only)">
+							<option label="Default" value="default" checked="true" />
+							<option label="Cerulean" value="cerulean" />
+							<option label="Flatly" value="flatly" />
+							<option label="Journal" value="journal" />
+						</dropdown>
+						<checkbox id="c1_toc" label="Include Table of Contents (TOC)" value="TRUE" />
+						<checkbox id="c1_number" label="Number Sections" value="TRUE" />
+					</frame>
+				</column>
+			</tab>
+			<tab label="Export" id="tab_Export">
+				<column id="clm_tBRKWYBRKW">
+					<text id="txt_BydfRKWY">
+						By default, the code will be printed to the RKWard output window. You can optionally save it directly to a file here:
+					</text>
+					<browser label="Optional: Save directly to .Rmd file" type="savefile" id="c1_save_opt" required="false" />
+				</column>
+			</tab>
+		</tabbook>
+	</dialog>
+</document>
