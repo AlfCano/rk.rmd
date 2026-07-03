@@ -75,7 +75,7 @@ function calculate(is_preview){
     echo('p_meta$output <- "' + format + '"\n');
 
     echo('yaml_str <- yaml::as.yaml(p_meta)\n');
-    echo('full_papaja <- paste0("---\\n", yaml_str, "---\\n\\n```{r setup, include = FALSE}\\nlibrary(\"papaja\")\\nr_refs(\"r-references.bib\")\\n```\\n\\n# Methods\\nWe report how we determined our sample size...\\n")\n');
+    echo('full_papaja <- paste0("---\\n", yaml_str, "---\\n\\n```{r setup, include = FALSE}\\nlibrary(\'papaja\')\\nr_refs(\'r-references.bib\')\\n```\\n\\n# Methods\\nWe report how we determined our sample size...\\n")\n');
   
 }
 

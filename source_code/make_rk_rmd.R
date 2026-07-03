@@ -15,7 +15,7 @@ local({
     ),
     about = list(
       desc = "RKWard Plugin Suite for generating R Markdown, papaja, and bookdown boilerplates.",
-      version = "0.0.1",
+      version = "0.0.2",
       url = "https://github.com/AlfCano/rk.rmd",
       license = "GPL (>= 3)"
     )
@@ -250,7 +250,7 @@ local({
     echo('p_meta$output <- \"' + format + '\"\\n');
 
     echo('yaml_str <- yaml::as.yaml(p_meta)\\n');
-    echo('full_papaja <- paste0(\"---\\\\n\", yaml_str, \"---\\\\n\\\\n```{r setup, include = FALSE}\\\\nlibrary(\\\"papaja\\\")\\\\nr_refs(\\\"r-references.bib\\\")\\\\n```\\\\n\\\\n# Methods\\\\nWe report how we determined our sample size...\\\\n\")\\n');
+    echo('full_papaja <- paste0(\"---\\\\n\", yaml_str, \"---\\\\n\\\\n```{r setup, include = FALSE}\\\\nlibrary(\\\'papaja\\\')\\\\nr_refs(\\\'r-references.bib\\\')\\\\n```\\\\n\\\\n# Methods\\\\nWe report how we determined our sample size...\\\\n\")\\n');
   ")
 
   js_print_papaja <- "

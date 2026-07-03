@@ -1,6 +1,6 @@
 # rk.rmd: R Markdown & Academic Boilerplates for RKWard
 
-![Version](https://img.shields.io/badge/Version-0.0.1-blue.svg)
+![Version](https://img.shields.io/badge/Version-0.0.2-blue.svg)
 ![License](https://img.shields.io/badge/License-GPLv3-blue.svg)
 ![RKWard](https://img.shields.io/badge/Platform-RKWard-green)
 [![R Linter](https://github.com/AlfCano/rk.rmd/actions/workflows/lintr.yml/badge.svg)](https://github.com/AlfCano/rk.rmd/actions/workflows/lintr.yml)
@@ -8,6 +8,10 @@
 **rk.rmd** brings a visual, intuitive boilerplate generator for R Markdown directly to the RKWard GUI. Stop struggling with complex YAML syntax, LaTeX preamble configurations, or trying to remember how to properly link authors to multiple institutions in APA format. 
 
 With this plugin suite, you can generate perfectly formatted `.Rmd` templates for standard reports, academic journals, and APA manuscripts in seconds.
+
+## 🚀 What's New in Version 0.0.2
+
+This is a fix for a couple or escaping characters in the `papaja` plug-in.
 
 ## 🚀 What's New in Version 0.0.1
 

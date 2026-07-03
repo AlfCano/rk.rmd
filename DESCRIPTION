@@ -2,8 +2,8 @@ Package: rk.rmd
 Type: Package
 Title: RKWard Plugin Suite for generating R Markdown, papaja, and
         bookdown boilerplates.
-Version: 0.0.1
-Date: 2026-04-18
+Version: 0.0.2
+Date: 2026-07-03
 Author: Alfonso Cano Robles
 Maintainer: Alfonso Cano Robles <alfonso.cano@correo.buap.mx>
 Enhances: rkward

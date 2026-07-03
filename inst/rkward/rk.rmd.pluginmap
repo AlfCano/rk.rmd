@@ -20,8 +20,8 @@
 		name="rk.rmd"
 		shortinfo="RKWard Plugin Suite for generating R Markdown, papaja, and bookdown boilerplates."
 		longinfo="RKWard Plugin Suite for generating R Markdown, papaja, and bookdown boilerplates."
-		version="0.0.1"
-		releasedate="2026-04-18"
+		version="0.0.2"
+		releasedate="2026-07-03"
 		url="https://github.com/AlfCano/rk.rmd"
 		license="GPL (&gt;= 3)"
 	>

@@ -18,7 +18,7 @@
 			<connect governor="!edit!.state" client="!edit!.enabled" />
 		-->
 	</logic>
-	<dialog label="Document Builder">
+	<dialog label="1. Document Builder">
 		<tabbook>
 			<tab label="Metadata" id="tab_Metadata">
 				<column id="clm_iDT1UAAN1J">
